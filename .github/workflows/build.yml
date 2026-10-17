@@ -1,0 +1,32 @@
+name: Build from zip
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.14.3'
+
+      - name: Unzip and build
+        run: |
+          mkdir sm
+          unzip -q StructureMover_Vehicles.zip -d sm
+          cd sm
+          gradle build --stacktrace
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: StructureMover-1.21.1
+          path: sm/build/libs/*.jar
