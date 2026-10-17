@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "structuremover:block/wheel_hub",
-    "side": "structuremover:block/wheel_tire"
-  }
-}

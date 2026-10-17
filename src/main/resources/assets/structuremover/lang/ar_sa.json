@@ -1,9 +1,0 @@
-{
-  "block.structuremover.vehicle_assembler": "مجمّع المركبات",
-  "block.structuremover.vehicle_wheel": "عجلة المركبة",
-  "block.structuremover.steering_wheel": "ستيرن",
-  "entity.structuremover.vehicle": "مركبة",
-  "message.structuremover.assembled": "تم تجميع المركبة (%s بلوك). اضغط Shift للنزول.",
-  "message.structuremover.too_big": "عدد البلوكات المتصلة كبير (الحد %s). هل المبنى ملتصق بمبنى كبير؟",
-  "message.structuremover.skipped": "تم ترك %s بلوك فيها محتويات أو بيانات في مكانها."
-}

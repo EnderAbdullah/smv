@@ -1,9 +1,0 @@
-{
-  "block.structuremover.vehicle_assembler": "Vehicle Assembler",
-  "block.structuremover.vehicle_wheel": "Vehicle Wheel",
-  "block.structuremover.steering_wheel": "Steering Wheel",
-  "entity.structuremover.vehicle": "Vehicle",
-  "message.structuremover.assembled": "Vehicle assembled (%s blocks). Sneak to get out.",
-  "message.structuremover.too_big": "Too many blocks connected (limit %s). Is it touching a big building?",
-  "message.structuremover.skipped": "%s blocks with inventories or data were left in place."
-}
