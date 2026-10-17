@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "structuremover:block/vehicle_assembler"
+    }
+  }
+}

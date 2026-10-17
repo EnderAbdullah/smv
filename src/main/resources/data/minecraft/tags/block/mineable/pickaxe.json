@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "structuremover:vehicle_assembler",
+    "structuremover:vehicle_wheel",
+    "structuremover:steering_wheel"
+  ]
+}

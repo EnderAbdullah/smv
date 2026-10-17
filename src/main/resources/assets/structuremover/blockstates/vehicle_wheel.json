@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "structuremover:block/vehicle_wheel"
+    },
+    "axis=z": {
+      "model": "structuremover:block/vehicle_wheel",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "structuremover:block/vehicle_wheel",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
